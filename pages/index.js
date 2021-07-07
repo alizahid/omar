@@ -17,18 +17,22 @@ const Home = () => (
 
       <div className="flex flex-col items-center mt-8 lg:flex-row">
         <Link href="/resume.pdf">
-          <a className="p-3 transition rounded-lg hover:bg-teal-100">Resume</a>
+          <a className="p-3 leading-none transition rounded-full hover:bg-teal-100">
+            Resume
+          </a>
         </Link>
         <Link href="https://instagram.com/omarzah1d">
-          <a className="p-3 transition rounded-lg hover:bg-teal-100">
+          <a className="p-3 leading-none transition rounded-full hover:bg-teal-100">
             Instagram
           </a>
         </Link>
         <Link href="https://twitter.com/omarrzahid">
-          <a className="p-3 transition rounded-lg hover:bg-teal-100">Twitter</a>
+          <a className="p-3 leading-none transition rounded-full hover:bg-teal-100">
+            Twitter
+          </a>
         </Link>
         <Link href="https://www.linkedin.com/in/omar-zahid-931763177">
-          <a className="p-3 transition rounded-lg hover:bg-teal-100">
+          <a className="p-3 leading-none transition rounded-full hover:bg-teal-100">
             LinkedIn
           </a>
         </Link>
